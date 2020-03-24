@@ -1,0 +1,25 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+.oops {
+  border-radius: 25px;
+  border: 2px solid rgb(212, 216, 208);
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  position: relative;
+  top: 130px;
+  left: 90px;
+}
+.plus{
+  margin-right: 5px;
+  font-size: x-large;
+}
+.plus2{
+  display: block;
+  // float: right;
+  color: white;
+  font-size: xx-large;
+  position: relative;
+  left: 340px;
+}

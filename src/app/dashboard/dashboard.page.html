@@ -1,0 +1,114 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="background-color: rgb(6, 70, 189);">
+    <ion-icon name="notifications-outline" style="font-size: x-large;"></ion-icon>
+    <ion-title style="text-align: center;  ">
+     Dashboard
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+    <ion-text >
+      <h1>Sales Activity</h1>
+    </ion-text>
+  
+      <ion-card class="card1">
+        <ion-item>
+          <ion-icon name="briefcase" class="ion1"></ion-icon> 
+               <ion-label style="margin-left: 20px;color: black;"><strong> 0 </strong></ion-label>
+          <ion-button fill="outline" slot="end">View</ion-button>
+        </ion-item>
+        <ion-card-content style="color: black;">
+         To be Packed
+        </ion-card-content>
+      </ion-card>
+  
+    <ion-card class="card2">
+      <ion-item>
+        <ion-icon name="bus-outline" class="ion2"></ion-icon>   
+          <ion-label style="margin-left: 20px;"><strong> 0 </strong></ion-label>
+        <ion-button fill="outline" slot="end">View</ion-button>
+      </ion-item>
+      <ion-card-content style="color: black;">
+      Packages To be Shipped
+      </ion-card-content>
+    </ion-card>
+  
+    <ion-card class="card3">
+      <ion-item>
+        <ion-icon name="checkmark-circle-outline" class="ion3"></ion-icon>  
+           <ion-label style="margin-left: 20px;"><strong> 0 </strong></ion-label>
+           <ion-button fill="outline" slot="end">View</ion-button>
+      </ion-item>
+      <ion-card-content style="color: black;">
+        Packages To be Delivered
+      </ion-card-content>
+    </ion-card>
+  
+    <ion-card class="card4">
+      <ion-item>
+        <ion-icon name="document-text-outline" class="ion4"></ion-icon>   
+          <ion-label style="margin-left: 20px;"><strong> 0 </strong></ion-label>
+           <ion-button fill="outline" slot="end">View</ion-button>
+      </ion-item>
+      <ion-card-content style="color: black;">
+       Quantity To be Invoiced
+      </ion-card-content>
+    </ion-card>
+    
+    <!-- Inventory Summary -->
+<ion-toolbar>
+    <ion-text >
+      <h1 style="color: black;">Inventory Summary <span style="font-size: 15px;">(In Quantity)</span> </h1>
+      
+    </ion-text>
+    <ion-card class="cardy">
+      <ion-card-content style="color: black;">
+        In Hand
+       </ion-card-content>
+       <ion-label style="margin-left: 20px;"><strong> 0 </strong></ion-label>
+    </ion-card>
+
+    <ion-card class="cardy2">
+      <ion-card-content style="color: black;">
+        To be Recieved
+       </ion-card-content>
+       <ion-label style="margin-left: 20px;"><strong> 0 </strong></ion-label>
+    </ion-card>
+   
+  </ion-toolbar>
+    <!-- Product Details -->
+    
+    <ion-text >
+      <h1>Product Details</h1>
+    </ion-text>
+
+
+    <ion-card class="carddi">
+      <ion-item>
+        <ion-icon name="stop-sharp" class="stop1"></ion-icon>   
+         <ion-label style="margin-left: 10px;">Active Items </ion-label>
+         <ion-label style="margin-left: 35px;"><strong> 0 </strong></ion-label> 
+         <ion-button fill="outline" slot="end">></ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="stop-sharp" class="stop2"></ion-icon>      
+        <ion-label style="margin-left: 10px;">All Items </ion-label>
+        <ion-label style="margin-left: 35px;"><strong> 0 </strong></ion-label> 
+        <ion-button fill="outline" slot="end">></ion-button>
+      </ion-item>
+      <ion-card-content class="txt4">
+      <ion-text>
+        All Item Groups
+        <ion-label style="margin-left: 50px;"><strong> 0 </strong></ion-label> 
+      </ion-text>
+      <br >
+      <ion-text>
+        Low Stock Items 
+      </ion-text>
+      <ion-label style="margin-left: 45px;"><strong> 0 </strong></ion-label> 
+      </ion-card-content>
+    </ion-card>
+
+</ion-content>

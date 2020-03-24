@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-toolbar class="topp">
+    <span class="plus2">Edit</span>
+    <ion-title style="text-align: center;">
+      More
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="top">
+    <ion-list>
+      <ion-item [routerLink]="['../tabs/dashboard']">
+        <ion-icon name="bar-chart-outline" size="small" slot="start"></ion-icon>
+        <ion-label>
+          Inventory Adjustments
+        </ion-label>
+      </ion-item>
+      <ion-item [routerLink]="['../tabs/dashboard']">
+        <ion-icon name="logo-usd" size="small" slot="start"></ion-icon>
+        <ion-label>
+          Transfer Orders
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <p style="margin-left: 20px;">SALES</p>
+  <div class="middle">
+    <ion-list>
+      <ion-item [routerLink]="['../tabs/dashboard']">
+        <ion-icon name="person-outline"  size="small" slot="start"></ion-icon>
+        <ion-label>
+          Customers
+        </ion-label>
+      </ion-item>
+      <ion-item [routerLink]="['../tabs/dashboard']">
+        <ion-icon name="document-text-outline" size="small" slot="start"></ion-icon>
+  
+        <ion-label>
+          Invoices
+        </ion-label>
+      </ion-item>
+      <ion-item [routerLink]="['../tabs/dashboard']">
+        <ion-icon name="cash-outline" size="small" slot="start"></ion-icon>
+        <ion-label>
+          Payments Received
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+
+<p style="margin-left: 20px;" >PURCHASES</p>
+<div >
+  <ion-list class="bottom">
+    <ion-item [routerLink]="['../tabs/dashboard']">
+      <ion-icon name="person-outline" size="small" slot="start"></ion-icon>
+      <ion-label>
+        Suppliers
+      </ion-label>
+    </ion-item>
+    <ion-item [routerLink]="['../tabs/dashboard']">
+      <ion-icon name="clipboard-outline" size="small" slot="start"></ion-icon>
+      <ion-label>
+        Purchase Orders
+      </ion-label>
+    </ion-item>
+    <ion-item [routerLink]="['../tabs/dashboard']">
+      <ion-icon name="wallet-outline" size="small" slot="start"></ion-icon>
+      <ion-label>
+        Bills
+      </ion-label>
+    </ion-item>
+    <ion-item [routerLink]="['../tabs/dashboard']">
+      <ion-icon name="card-outline" size="small" slot="start"></ion-icon>
+      <ion-label>
+        Payments Made
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</div>
+
+  
+
+</ion-content>

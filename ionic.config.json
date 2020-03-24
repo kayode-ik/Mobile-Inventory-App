@@ -1,0 +1,7 @@
+{
+  "name": "Mobile-Inventory-App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Nept Inventory
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="auth-form"  >
+
+      <ion-toolbar  class="ion-padding-top">
+        <!-- <ion-grid> -->
+          <ion-row>
+            <ion-col style="margin-top: 25px;" >
+              <div class="txt" style="font-size: 30px;
+              font-weight: 700;
+              font-family: sans-serif;
+              position: relative;
+              top: -80px;
+              ">
+                <p style="text-align: center;">Welcome to Nept Inventory</p>
+              </div>
+              <div class="btnn">
+                <ion-button [routerLink]="['/registration']" expand="block" color="primary">Register</ion-button>
+              </div>
+              <span class="divider line one-line">or</span>
+      
+              <span class="already">Already a user?</span>
+      
+              <ion-button [routerLink]="['/login']" expand="block" color="light">Sign In</ion-button>
+              
+              
+            </ion-col>
+          </ion-row>
+        <!-- </ion-grid> -->
+      </ion-toolbar>
+     
+    
+ 
+  
+</ion-content>
